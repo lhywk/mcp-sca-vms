@@ -34,7 +34,7 @@ async def start_clone(repository_url: str, target_path: str) -> CloneStatus:
     except Exception as e:
         return CloneStatus(status="failed", message=f"Error preparing target path: {e}")
 
-    args = ["git", "clone", repository_url, target_path]
+    args = ["git", "clone", "--depth", "1", repository_url, target_path]
     
     try:
         with open(os.devnull, 'w') as f_null:
