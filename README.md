@@ -10,7 +10,7 @@
 
 ### 필수 소프트웨어 및 환경
 - Python 3.10 이상
-- Syft, Grype 등 외부 CLI 도구
+- Syft, Grype 설치
     - [Syft 설치 안내](https://github.com/anchore/syft#installation)
     - [Grype 설치 안내](https://github.com/anchore/grype#installation)
 
@@ -34,7 +34,7 @@
 uvx --from git+https://github.com/lhywk/mcp-sca-vms.git mcp-server
 ```
 
-또는, `claude_desktop_config.json` 파일에 아래와 같이 설정을 추가하세요:
+`claude_desktop_config.json` 파일에 아래와 같이 설정을 추가하세요:
 
 ```json
 {
@@ -52,9 +52,9 @@ uvx --from git+https://github.com/lhywk/mcp-sca-vms.git mcp-server
 ```
 
 - 대시보드 실행:
-        ```bash
-        streamlit run src/dashboard.py
-        ```
+```bash
+streamlit run src/dashboard.py
+```
 
 ### 프롬프트 예시 및 전체 워크플로우
 
