@@ -9,7 +9,7 @@
 - Streamlit 기반 대시보드로 시각화
 
 ### 필수 소프트웨어 및 환경
-- Python 3.10 이상
+- Python 3.13 이상
 - Syft, Grype, uv 설치
     - [Syft 설치 안내](https://github.com/anchore/syft#installation)
     - [Grype 설치 안내](https://github.com/anchore/grype#installation)
