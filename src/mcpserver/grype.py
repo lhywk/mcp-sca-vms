@@ -62,7 +62,7 @@ def format_response(result: CommandResult, success_msg: str, error_msg: str) -> 
 
 # 3. MCP Tool Definitions
 @mcp.tool()
-async def check_status() -> str:
+async def check_grype_status() -> str:
     """Checks if Grype is installed correctly and returns its version."""
     result = await run_grype_command(args=["grype", "--version"], timeout=10)
     return format_response(result, success_msg=f"Grype is installed and working correctly:\n{result.stdout.strip()}", error_msg="Grype health check failed:")
