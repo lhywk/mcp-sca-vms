@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/mcp_sca_vms.egg-info/PKG-INFO
+src/mcp_sca_vms.egg-info/SOURCES.txt
+src/mcp_sca_vms.egg-info/dependency_links.txt
+src/mcp_sca_vms.egg-info/entry_points.txt
+src/mcp_sca_vms.egg-info/requires.txt
+src/mcp_sca_vms.egg-info/top_level.txt
+src/mcpserver/__init__.py
+src/mcpserver/__main__.py
+src/mcpserver/core.py
+src/mcpserver/dashboard.py
+src/mcpserver/git_clone.py
+src/mcpserver/grype.py
+src/mcpserver/syft.py
+src/mcpserver/vuln.py
