@@ -1,2 +1,0 @@
-[console_scripts]
-mcp-server = mcpserver.__main__:main
