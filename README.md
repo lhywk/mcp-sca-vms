@@ -13,7 +13,7 @@
 - Syft, Grype, uv 설치
     - [Syft 설치 안내](https://github.com/anchore/syft#installation)
     - [Grype 설치 안내](https://github.com/anchore/grype#installation)
-    - [uv 설치 안내](https://github.com/astral-sh/uv#installation) / 설치: `pip install uv`
+    - [uv 설치 안내](https://docs.astral.sh/uv/#installation) / 설치: `pip install uv`
 
 ### 의존성 설치 (uv 권장)
 1. uv 설치 (최초 1회만)
