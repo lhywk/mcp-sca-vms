@@ -64,7 +64,7 @@ def format_response(result: CommandResult, success_msg: str, error_msg: str) -> 
 
 # 3. MCP Tool Definition
 @mcp.tool()
-async def check_status() -> str:
+async def check_syft_status() -> str:
     """Checks if Syft is installed correctly and returns its version."""
     result = await run_syft_command(args=["syft", "--version"], timeout=10)
     return format_response(
