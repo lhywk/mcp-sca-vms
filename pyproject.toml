@@ -8,16 +8,6 @@ dependencies = [
     "mcp[cli]>=1.17.0",
 ]
 
-[project]
-name = "mcp-sca-vms"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "mcp[cli]>=1.17.0",
-]
-
 [project.scripts]
 mcp-server = "mcpserver.__main__:main"
 
